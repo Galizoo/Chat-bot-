@@ -19,4 +19,6 @@
 #Ahora para poder hacer push los colaboradores a mi repocitorio
 #git clone (pegamos la url) --Clonaremos el codigo  del repocitorio
 #git push --si no tienes colaborador no te va a funcionar 
-print ("Holas, este sera el inicio de nuestro proyecto o intento de proyecto de chat bot UwU")
+print ("Holas, este sera el inicio de nuestro proyecto o intento de proyecto de chat bot XD")
+print("CLONANDO EL REPOSITORIO")
+print("Haciendo pruebas")
