@@ -19,21 +19,7 @@
 #Ahora para poder hacer push los colaboradores a mi repocitorio
 #git clone (pegamos la url) --Clonaremos el codigo  del repocitorio
 #git push --si no tienes colaborador no te va a funcionar 
-print ("Holas, este sera el inicio de nuestro proyecto o intento de proyecto de chat bot UwU")
-
-
-
-
-
-
-#INSTALACION DE RAZA
-#1.Conda create -n asistente python=3.6  -Primero anaconda creara un ambiente virtual que se llame asistente con la version de python
-#2.Aceptamos con entrer el procedimiento 
-#3.El entorno virtual ya estara creado y entraremos a el con el siguiente comando: 
-#-conda activate asistente
-#4.python -m pip unisntall pip           -pip es un manejador de paquetes donde se pueden actualizar, instalar e elimnar paquetes (en la documentacion de raza se sugiere que se desinstale pip de tu entorno virtual)
-#5.Confirmaremos la desinstalacion de pip con enter
-#6.python -m ensurepip                   -Ahora ya desinstalado volveremos a instalar pip (este comando solo trae el paquete) 
-#7.python -m pip install -U pip          -Este comando lo instala dando un upgrate 
-#8.Esto guiandoce desde la documentacion de rasa 
-#9.pip install rasa
+print ("Holas, este sera el inicio de nuestro proyecto o intento de proyecto de chat bot XD")
+print("CLONANDO EL REPOSITORIO")
+print("Haciendo pruebas")
+print("PROBANDO")
