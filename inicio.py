@@ -38,4 +38,3 @@ print("PROBANDO")
 #7.python -m pip install -U pip          -Este comando lo instala dando un upgrate 
 #8.Esto guiandoce desde la documentacion de rasa 
 #9.pip install rasa
-print("Gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa me chupa un wue")
