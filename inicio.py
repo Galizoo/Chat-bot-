@@ -26,6 +26,7 @@ print ("Holas, este sera el inicio de nuestro proyecto o intento de proyecto de 
 print("CLONANDO EL REPOSITORIO")
 print("Haciendo pruebas")
 print("PROBANDO")
+print("Pablo Ha Llegado")
 
 #INSTALACION DE RAZA
 #1.Conda create -n asistente python=3.6  -Primero anaconda creara un ambiente virtual que se llame asistente con la version de python
