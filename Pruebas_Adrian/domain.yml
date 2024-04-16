@@ -15,7 +15,7 @@ responses:
 
   utter_cheer_up:
   - text: "Aquí tienes algo para animarte:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://www.youtube.com/watch?v=lOD4tHz4A_8"
 
   utter_did_that_help:
   - text: "¿Te ayudó eso?"
@@ -29,6 +29,30 @@ responses:
   utter_iamabot:
   - text: "Soy un bot, impulsado por Rasa."
 
+  utter_welcome:
+    - text: "¡Hola! Bienvenido al chatbot de soporte de ventas J&P Periféricos. ¿En qué puedo ayudarte?"
+  
+  utter_ask_options:
+    - text: "¿Qué te gustaría hacer a continuación?"
+      buttons:
+        - title: "Ver mi saldo"
+          payload: '/check_balance'
+        - title: "Transferir dinero"
+          payload: '/transfer_money'
+        - title: "Ayuda"
+          payload: '/help'
+
+  utter_help:
+    - text: "Estoy aquí para ayudarte. Selecciona una opción:"
+      buttons:
+        - title: "Hablar con un humano"
+          payload: '/human_handoff'
+        - title: "FAQ"
+          payload: '/faq'
+          
+actions:
+  - action_session_start
+  - utter_welcome
 
 session_config:
   session_expiration_time: 60

@@ -1,0 +1,118 @@
+CASO DE USO: ASISTENCIA DE PRODUCTO EN TIEMPO REAL
+
+Actor Principal: Cliente
+
+Actores Secundarios: Chatbot, Sistema de Gestión de Inventario
+
+Descripción: Este caso de uso describe cómo un cliente puede interactuar con el chatbot de la empresa de tecnología para obtener asistencia en tiempo real sobre productos específicos de hardware sin necesidad de iniciar sesión previamente.
+
+Precondiciones:
+
+El cliente tiene acceso a la plataforma de chatbot de la empresa de tecnología.
+El chatbot está activo y disponible para interactuar con los clientes.
+El cliente está dispuesto a proporcionar información básica de contacto durante la conversación.
+
+
+Flujo Básico:
+
+El cliente inicia una conversación con el chatbot de la empresa de tecnología.
+El chatbot saluda al cliente y ofrece asistencia.
+El cliente describe su consulta o pregunta relacionada con un producto de hardware específico.
+El chatbot utiliza procesamiento del lenguaje natural (NLP) para comprender la consulta del cliente.
+El chatbot solicita al cliente la información necesaria para ayudar con su consulta, como el nombre del producto o cualquier detalle adicional relevante.
+El cliente proporciona la información solicitada.
+El chatbot recupera información relevante del Sistema de Gestión de Inventario sobre el producto mencionado por el cliente.
+El chatbot proporciona al cliente información detallada sobre el producto, incluyendo especificaciones técnicas, precios, disponibilidad de inventario y cualquier otra información relevante.
+El cliente puede hacer preguntas adicionales o solicitar aclaraciones sobre el producto.
+El chatbot responde a las preguntas adicionales del cliente de manera precisa y oportuna.
+Una vez que se ha proporcionado la información requerida, el cliente agradece al chatbot y la conversación se termina.
+
+
+Postcondiciones:
+
+El cliente ha recibido la asistencia necesaria en tiempo real sobre el producto de hardware.
+Se registra un registro de la interacción en el sistema de seguimiento de clientes para futuras referencias y análisis.
+Extensiones:
+
+Si el chatbot no puede proporcionar una respuesta satisfactoria, puede ofrecer al cliente la opción de ser transferido a un representante de servicio al cliente humano.
+Si el producto solicitado no está disponible en el inventario, el chatbot puede sugerir productos alternativos o proporcionar información sobre el momento estimado de disponibilidad.
+Este caso de uso describe el flujo básico de interacción entre un cliente y el chatbot de la empresa de tecnología para obtener asistencia en tiempo real sobre productos de hardware sin necesidad de que el cliente inicie sesión previamente. La implementación específica puede variar según los sistemas y procesos internos de la empresa.
+
+
+
+
+
+
+
+CASO DE USO: ASISTENCIA EN LA SELECCIÓN DE PRODUCTOS
+Actor Principal: Cliente
+
+Actores Secundarios: Chatbot, Sistema de Gestión de Productos
+
+Descripción: Este caso de uso describe cómo un cliente puede interactuar con el chatbot de la empresa de tecnología para recibir ayuda en la selección de productos de hardware según sus necesidades y preferencias específicas.
+
+Precondiciones:
+
+El cliente tiene acceso a la plataforma de chatbot de la empresa de tecnología.
+El chatbot está activo y disponible para interactuar con los clientes.
+Flujo Básico:
+
+El cliente inicia una conversación con el chatbot de la empresa de tecnología.
+El chatbot saluda al cliente y ofrece asistencia.
+El cliente describe sus necesidades o el propósito del producto que está buscando, proporcionando detalles como el tipo de hardware, el uso previsto, el presupuesto y cualquier preferencia específica.
+El chatbot utiliza procesamiento del lenguaje natural (NLP) para comprender las necesidades y preferencias del cliente.
+El chatbot accede al Sistema de Gestión de Productos para buscar productos que coincidan con los criterios proporcionados por el cliente.
+El chatbot presenta al cliente una lista de productos recomendados, con información detallada sobre cada producto, incluyendo especificaciones técnicas, precios y disponibilidad de inventario.
+El cliente puede revisar la información de los productos recomendados y hacer preguntas adicionales sobre características específicas o comparaciones entre productos.
+El chatbot responde a las preguntas adicionales del cliente y ofrece recomendaciones adicionales si es necesario.
+El cliente selecciona el producto que mejor se adapte a sus necesidades y preferencias.
+El chatbot proporciona al cliente instrucciones para completar la compra, como enlaces directos al sitio web de la empresa o información sobre cómo realizar el pedido por otros canales de comunicación.
+El cliente agradece al chatbot por la ayuda y termina la conversación.
+Postcondiciones:
+
+El cliente ha recibido asistencia en la selección de productos de hardware según sus necesidades y preferencias.
+Se registra un registro de la interacción en el sistema de seguimiento de clientes para futuras referencias y análisis.
+Extensiones:
+
+Si el chatbot no puede encontrar productos que coincidan con los criterios proporcionados por el cliente, puede solicitar más información o sugerir productos alternativos.
+Si el cliente necesita asistencia adicional durante el proceso de compra, el chatbot puede ofrecer ayuda con el proceso de pago, la entrega o cualquier otra consulta relacionada con la compra.
+Este caso de uso describe el flujo básico de interacción entre un cliente y el chatbot de la empresa de tecnología para recibir asistencia en la selección de productos de hardware. La implementación específica puede variar según los sistemas y procesos internos de la empresa.
+
+
+CASO DE USO: RESOLUCIÓN DE CONSULTAS DE PRODUCTOS
+
+Actor Principal: Cliente
+
+Actores Secundarios: Chatbot, Sistema de Gestión de Productos
+
+Descripción: Este caso de uso describe cómo un cliente puede interactuar con el chatbot de la empresa de tecnología para resolver consultas específicas sobre productos de hardware.
+
+Precondiciones:
+
+El cliente tiene acceso a la plataforma de chatbot de la empresa de tecnología.
+El chatbot está activo y disponible para interactuar con los clientes.
+
+Flujo Básico:
+
+El cliente inicia una conversación con el chatbot de la empresa de tecnología.
+El chatbot saluda al cliente y ofrece asistencia.
+El cliente describe su consulta específica sobre un producto de hardware, proporcionando detalles como el nombre del producto, el problema o la pregunta que tiene.
+El chatbot utiliza procesamiento del lenguaje natural (NLP) para comprender la consulta del cliente.
+El chatbot accede al Sistema de Gestión de Productos para buscar información relevante sobre el producto mencionado por el cliente.
+El chatbot presenta al cliente la información solicitada sobre el producto, incluyendo especificaciones técnicas, características, precios y disponibilidad de inventario.
+El cliente puede hacer preguntas adicionales o solicitar aclaraciones sobre el producto.
+El chatbot responde a las preguntas adicionales del cliente y ofrece asistencia adicional si es necesario.
+Una vez que se ha proporcionado la información requerida, el cliente agradece al chatbot y termina la conversación.
+
+Postcondiciones:
+
+El cliente ha recibido respuestas a sus consultas específicas sobre productos de hardware.
+Se registra un registro de la interacción en el sistema de seguimiento de clientes para futuras referencias y análisis.
+Extensiones:
+
+Si el chatbot no puede encontrar información sobre el producto solicitado, puede ofrecer alternativas o sugerir al cliente que se ponga en contacto con el servicio de atención al cliente para obtener ayuda adicional.
+Si la consulta del cliente requiere asistencia técnica avanzada, el chatbot puede derivar al cliente a un representante de servicio al cliente o soporte técnico humano.
+Este caso de uso describe el flujo básico de interacción entre un cliente y el chatbot de la empresa de tecnología para resolver consultas específicas sobre productos de hardware. La implementación específica puede variar según los sistemas y procesos internos de la empresa.
+
+
+

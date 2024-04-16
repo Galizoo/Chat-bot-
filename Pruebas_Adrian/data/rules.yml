@@ -3,12 +3,27 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Decir adiós cada vez que el usuario diga adiós
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Decir 'Soy un bot' cada vez que el usuario desafíe
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Saludo inicial al comenzar la conversación
+  steps:
+    - action: action_session_start
+    - action: utter_welcome
+
+- rule: Proporcionar opciones de menú
+  steps:
+    - intent: greet
+    - action: utter_ask_options
+
+- rule: Ofrecer ayuda
+  steps:
+    - intent: help
+    - action: utter_help
